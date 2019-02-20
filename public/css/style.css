@@ -1,16 +1,4 @@
 @charset "UTF-8";
-@font-face {
-  font-family: "Raleway";
-  src: url("../../public/fonts/Raleway/Raleway-Regular.ttf");
-}
-@font-face {
-  font-family: "RalewayXLight";
-  src: url("../../public/fonts/Raleway/Raleway-ExtraLight.ttf");
-}
-@font-face {
-  font-family: "RalewayBold";
-  src: url("../../public/fonts/Raleway/Raleway-SemiBold.ttf");
-}
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
@@ -15454,6 +15442,10 @@ header .navbar-toggler {
 #conseil p {
   font-size: 18px;
   padding: 0 22%;
+}
+
+body {
+  font-family: "Raleway";
 }
 
 /*# sourceMappingURL=style.css.map */
