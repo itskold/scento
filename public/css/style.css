@@ -15470,9 +15470,10 @@ header .navbar-toggler {
   font-size: 41px;
 }
 
-#equipe {
+#equipe p {
   font-size: 18px;
 }
+
 #map {
   background: #61647d url("../../../public/img/map.png") no-repeat center;
   background-size: cover;
@@ -15488,6 +15489,9 @@ header .navbar-toggler {
   left: 50%;
   margin-left: -169px;
   top: 36%;
+}
+#map .info h4 {
+  font-size: 18px;
 }
 
 /*# sourceMappingURL=style.css.map */
