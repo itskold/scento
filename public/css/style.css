@@ -15473,5 +15473,21 @@ header .navbar-toggler {
 #equipe {
   font-size: 18px;
 }
+#map {
+  background: #61647d url("../../../public/img/map.png") no-repeat center;
+  background-size: cover;
+  padding: 120px 0;
+  min-height: 514px;
+  position: relative;
+}
+#map .info {
+  background: #fff;
+  padding: 20px;
+  width: 338px;
+  position: absolute;
+  left: 50%;
+  margin-left: -169px;
+  top: 36%;
+}
 
 /*# sourceMappingURL=style.css.map */
