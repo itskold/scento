@@ -15400,4 +15400,60 @@ header .navbar-toggler {
   animation: slide 20s linear infinite;
 }
 
+#expli p {
+  padding-left: 17%;
+  padding-right: 17%;
+  font-size: 18px;
+}
+
+#bgImg {
+  padding: 200px 0;
+  background: url("../../../public/img/store.jpg") no-repeat center;
+  background-size: cover;
+}
+#bgImg h2 {
+  padding-left: 17%;
+  padding-right: 17%;
+  font-family: "RalewayXLight";
+  font-size: 42px;
+}
+
+#principe p {
+  padding-left: 18%;
+  padding-right: 18%;
+  font-size: 18px;
+}
+#principe .container .row .col-6 p {
+  padding: 0px;
+}
+
+#avantage {
+  background-color: #61647d;
+  padding: 120px 0;
+}
+#avantage .container .row .col-6 {
+  padding: 30px 15px;
+}
+#avantage .container .row .col-6 img {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 40px;
+}
+#avantage .container .row .col-6 h4 {
+  font-size: 18px;
+  font-weight: bold;
+}
+#avantage .container .row .col-6 p {
+  font-size: 16px;
+}
+
+#conseil h1 {
+  padding-left: 17%;
+  padding-right: 17%;
+}
+#conseil p {
+  font-size: 18px;
+  padding: 0 22%;
+}
+
 /*# sourceMappingURL=style.css.map */
