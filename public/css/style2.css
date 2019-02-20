@@ -15322,6 +15322,10 @@ readers do not read off random characters that represent icons */
   background-color: rgba(0, 0, 0, 0.3);
 }
 
+.bg-blanc {
+  background-color: white;
+}
+
 strong {
   font-family: RalewayBold;
 }
@@ -15336,6 +15340,11 @@ body {
 
 .zindex-top {
   z-index: 5;
+}
+
+.text-desc p, .text-desc a {
+  font-size: 1.2em;
+  line-height: 30px;
 }
 
 header {
@@ -15398,6 +15407,13 @@ header .navbar-toggler {
 #sponsors .slider {
   width: 350%;
   animation: slide 20s linear infinite;
+}
+
+#appareil-banner {
+  background-image: url(../../public/img/aroslim.png);
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
 }
 
 /*# sourceMappingURL=style2.css.map */
