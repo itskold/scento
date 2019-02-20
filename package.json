@@ -1,0 +1,19 @@
+{
+  "name": "Scents",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch src/scss/style.scss public/css/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.3.1"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.7.2"
+  }
+}
