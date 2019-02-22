@@ -15349,12 +15349,29 @@ body {
 
 header {
   z-index: 10;
-  position: fixed;
+  position: absolute;
   width: 100%;
 }
 header .navbar-toggler {
   border-width: 1px !important;
   border-color: white !important;
+}
+
+@keyframes slideDown {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+.nav-fix {
+  position: fixed;
+  background-color: white;
+  animation: slideDown 1s;
+}
+.nav-fix .nav-link {
+  color: black !important;
 }
 
 #banner {
